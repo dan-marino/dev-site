@@ -148,7 +148,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
+		font-family: "Work Sans Light", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 2.375;
@@ -2619,9 +2619,15 @@ input, select, textarea {
 		}
 
 		.image.fit {
-			display: inline-block;
+			display: inline;
 			margin: 2.5rem 0;
-			width: 30%;
+			width: 20%;
+		}
+
+		.image.arch {
+			display: inline;
+			/* margin: rem 0; */
+			width: 80%;
 		}
 
 			.image.fit:first-child {
@@ -2647,9 +2653,9 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			margin: 4rem 0;
-			width: 30%;
-			border-radius: 50%;
+			margin: 1rem 0;
+			width: 20%;
+			border-radius: 10%;
 		}
 
 			.image.main:first-child {
@@ -2667,8 +2673,8 @@ input, select, textarea {
 			}
 
 			.image.main {
-				margin: 2rem 0;
-				width: 50%;
+				margin: .5rem 0;
+				width: 40%;
 			}
 
 		}
@@ -2971,7 +2977,9 @@ input, select, textarea {
 
 			header.major > p {
 				margin-top: 0;
-				text-align: center;
+				font-style: normal;
+				text-align: justify;
+				font-weight: 600;
 			}
 
 			header.major > .date {
@@ -3402,14 +3410,16 @@ input, select, textarea {
 				}
 
 		#intro h1 {
-			font-size: 5rem;
+			font-size: 3rem;
 			line-height: 1;
 		}
 
 		#intro p {
 			font-size: 1.25rem;
-			font-style: italic;
-			margin-top: -0.25rem;
+			margin-top: -1.25rem;
+			width: 70%;
+			/* margin-right: 15rem; */
+			/* width: 50% */
 			text-align: center;
 		}
 
@@ -4701,4 +4711,14 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+
+	.haven-dark {
+		color: #2B3140;
+		font-weight: bold;
+	}
+
+	.haven {
+		color: #00F2B1;
+		font-weight: bold;
 	}
