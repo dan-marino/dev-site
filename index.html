@@ -1,89 +1,102 @@
 <!DOCTYPE HTML>
+<!--
+	Photon by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-		<title>Dan Marino</title>
+		<title>Photon by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-			<div id="wrapper" class="fade-in">
-					<div id="intro">
+			<section id="header">
+				<div class="inner">
+					<div id="name-nav">
+						<h1>Dan Marino</h1>
 						<nav id="nav">
 							<ul class="icons">
 								<li><a target="_blank" href="https://www.linkedin.com/in/daniel-marino-software-engineer/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 								<li><a target="_blank" href="https://github.com/dan-marino" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								<li><a target="_blank" href="assets/Daniel_Marino_Resume_01-06-2021.pdf" class="icon fas fa-file-alt"><span class="label">Resume</span></a></li>
+								<li><a href="mailto:danmarino1014@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
 							</ul>
 						</nav>
-						<a href="#" class="image main"><img src="./images/profile.jpg" alt="Portrait of Dan Marino in Vermont"></a>
-						<h1>Dan Marino</h1>
-						<p> I'm a software engineer in New York City, with experience in Ruby, JavaScript/Node.js, PostgreSQL, AWS, Rails, and React.</p>
-						<p>Most recently, I built <i class="haven-dark">Haven</i>, a Secrets Manager for Node applications.</p>
-
 					</div>
-
-				<!-- Main -->
-					<div id="main">
-
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-								<a href="https://haven-secrets.github.io/" target="_blank"><img class="image fit" src="images/haven-with-text.png" alt="Haven Logo" /></a>
-								<img class="image arch" src="images/haven-architecture.png" alt="Haven Architecture" />
-									<h3><i class="haven">Haven</i> is an open-source, centralized secrets manager.</h3>
-									<p>It protects your application secrets through a combination of encryption, access control, and injection-at-runtime. It’s easy to set up, and offers an intuitive GUI to set fine-grained access controls and to view logs. Haven allows small teams to securely manage all of their projects’ secrets---and to do so with a minimum of hassle so that they can get back to developing their applications without sacrificing security.</p>
-								</header>
-								<ul class="actions special">
-									<li><a href="https://haven-secrets.github.io/" target="_blank" class="button large">Case Study</a></li>
-									<li><a href="https://github.com/haven-secrets" class="button large" target="_blank">View Code</a></li>
-								</ul>
-							</article>
-
-							<section class="posts">
-								<article>
-									<header class="major">
-										<h2>Ticket Manager</h2>
-										<p>A ticket management app. Built using <i class="haven">Ruby on Rails</i> and deployed on <i class="haven">Heroku</i>. Test suite made using <i class="haven">RSpec</i></p>
-									</header>
-									<img class="image apps" src="images/ticket-manager.png" alt="Screenshot of ticket manager app" />
-								</article>
-								<article>
-									<header class="major">
-										<h2>Payloads App</h2>
-										<p>Request-Bin clone that displays all actions from <i class="haven">GitHub</i>. Built using <i class="haven">Node.js</i>, <i class="haven">JavaScript</i>, <i class="haven">Webhooks</i>, <i class="haven">HandleBars</i>, <i class="haven">ngrok</i></p>
-									</header>
-									<img class="image apps" src="images/request-bin.png" alt="Screenshot of request-bin app" />
-								</article>
-								<article>
-									<header class="major">
-										<h2>Reaction</h2>
-										<p>Trello Clone. Drag and drop card and list items on a board. Built using <i class="haven">Ruby on Rails</i>, <i class="haven">RESTful API</i>, <i class="haven">React</i>, <i class="haven">Redux</i></p>
-									</header>
-									<img class="image apps" src="images/reaction.png" alt="Screenshot of trello" />
-								</article>
-								<article>
-									<header class="major">
-										<h2>Airline Routes</h2>
-										<p>App for identifying airline routes. Built using <i class="haven">JavaScript</i> and <i class="haven">React</i>. Deployed on <i class="haven">Heroku</i></p>
-									</header>
-									<img class="image apps" src="images/airline-routes.png" alt="Screenshot of airline routes app" />
-								</article>
-							</section>
+					<img id="profile" src="./images/profile.jpg" alt="Portrait of Dan Marino in Vermont">
+					<div id="bio">
+						<p>I'm a software engineer in New York City, with experience in Ruby, JavaScript/Node.js, PostgreSQL, AWS, Rails, and React.</p>
+						<p>Most recently, I built <a class="haven" href="https://haven-secrets.github.io/">Haven</a>, a Secrets Manager for Node applications.</p>
 					</div>
+				</div>
+			</section>
 
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Dan Marino</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+		<!-- One -->
+			<section id="one" class="main style1">
+				<div class="container">
+					<div class="row gtr-150">
+						<div class="col-6 col-12-medium">
+							<header class="major">
+								<h2><a class="haven" href="https://haven-secrets.github.io/">Haven</a></h2>
+							</header>
+							<p>Haven is an open-source, centralized secrets manager that protects your application secrets through a combination of encryption, access control, and injection-at-runtime. Built using Node.js and Amazon Web Services, it is easy to set up and integrate with your Node applications.</p>
+							<p>For the developer, Haven provides both a UI and CLI to abstract away the pain of using a secrets manager. Furthermore, Haven injects secrets at runtime and redacts secrets from getting logged on stdOut and StdErr.</p>
+							<ul class="actions special">
+								<li><a href="https://haven-secrets.github.io/" class="button">Read the Case Study</a></li>
+							</ul>
+						</div>
+						<div class="col-6 col-12-medium imp-medium">
+							<span><a class="haven" href="https://haven-secrets.github.io/"><img class="logo" src="images/haven.png" alt="Haven Logo" /></a><span class="image fit"></span>
+						</div>
 					</div>
+				</div>
+			</section>
 
-			</div>
+
+		<!-- Three -->
+			<section id="three" class="main style2 special">
+				<div class="container">
+					<header class="major">
+						<h2>Projects</h2>
+					</header>
+					<div class="row gtr-150">
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="images/ticket-manager.png" alt="" /></span>
+							<h3>Ticket Manager</h3>
+							<p>A ticket management app. Built using <i class="haven">Ruby on Rails</i> and deployed on <i class="haven">Heroku</i>. Test suite made using <i class="haven">RSpec</i></p>
+						</div>
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="images/request-bin.png" alt="" /></span>
+							<h3>Payloads</h3>
+							<p>Request-Bin clone that displays all actions from <i class="haven">GitHub</i>. Built using <i class="haven">Node.js</i>, <i class="haven">JavaScript</i>, <i class="haven">Webhooks</i>, <i class="haven">HandleBars</i>, <i class="haven">ngrok</i></p>
+						</div>
+						<div class="col-4 col-12-medium">
+							<span class="image fit"><img src="images/reaction.png" alt="" /></span>
+							<h3>Reaction</h3>
+							<p>Trello Clone. Drag and drop card and list items on a board. Built using <i class="haven">Ruby on Rails</i>, <i class="haven">RESTful API</i>, <i class="haven">React</i>, <i class="haven">Redux</i></p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<section id="footer">
+				<ul class="icons">
+					<li><a target="_blank" href="https://www.linkedin.com/in/daniel-marino-software-engineer/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a target="_blank" href="https://github.com/dan-marino" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a target="_blank" href="assets/Daniel_Marino_Resume_01-06-2021.pdf" class="icon fas fa-file-alt"><span class="label">Resume</span></a></li>
+					<li><a href="mailto:danmarino1014@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Dan Marino</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</section>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
