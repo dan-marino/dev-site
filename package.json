@@ -1,0 +1,25 @@
+{
+  "name": "dan-marino.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmistakes/jekyll-theme-basically-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mmistakes/jekyll-theme-basically-basic/issues"
+  },
+  "homepage": "https://github.com/mmistakes/jekyll-theme-basically-basic#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
